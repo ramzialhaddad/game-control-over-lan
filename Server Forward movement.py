@@ -18,10 +18,10 @@ while True:
         meme = data.decode('utf-8')
         print(meme)
         if meme == 'On':
-                PressKey(A)
+                PressKey(W)
                 time.sleep(1)
-                ReleaseKey(A)
+                ReleaseKey(W)
         else:
-                ReleaseKey(A)
+                ReleaseKey(W)
                 
 sys.ext()
